@@ -18,7 +18,7 @@ from svm import SVM
 
 
 
-def example(num_samples=100, num_features=2, grid_size=200, filename="svm.pdf"):
+def main(num_samples=100, num_features=2, grid_size=200, filename="svm.pdf"):
     Data_obj = Data();
     Plot_obj = Plotting();    
     
@@ -38,5 +38,5 @@ def example(num_samples=100, num_features=2, grid_size=200, filename="svm.pdf"):
  
 
 if __name__ == "__main__":
-    example()
+    main()
   
